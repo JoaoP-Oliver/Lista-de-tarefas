@@ -1,0 +1,113 @@
+<!--
+    Lista de tarefas
+    usuario coloca uma tarefa no input e uma lista
+    aparece com uma dessas tarefas
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            font-family: sans-serif;
+        }
+        
+        body {
+            display: flex;
+
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1.8rem;
+
+            padding: 15px;
+            background-color: rgb(39, 142, 226);
+        }
+
+        .tarefa {
+            width: 500px;
+            padding: 20px;
+            border-radius: 1rem;
+            background-color: #053e6d;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        input {
+            width: 350px;
+
+            height: 1.4rem;
+            padding: 2px;
+            border-radius: 1rem;
+            border: none;
+        }
+
+        button {
+            color: white;
+            background-color: #053e6d;
+            border: 2px solid white;
+            border-radius: 4px;
+            width: 110px;
+            height: 30px;
+            margin-left: 8px;
+        }
+
+        #list {
+            padding: 12px;
+            max-width: 500px;
+
+            color: white;
+            background-color: #053e6d;
+            border-radius: 1rem;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="tarefa">
+        <input type="text" name="tarefa" id="tarefa">
+        <button onclick="notes()">Adicionar Tarefa</button>
+    </div>
+
+    
+
+    <script>
+        function notes() {
+            let request = document.getElementByd('tarefa')
+            let response = document.getElementById('list')
+        }
+
+
+        function error() {
+            const div = document.createElement('div')
+            div.innerHTML = `
+            <div id="list">
+            <p>No dia mais claro na noite mais densa o mal sucumbirá ante a minha presença, E todo aquele que venera o mal há de penar quando o poder do lanterna verde enfrentar!</p>
+            </div>
+            `
+
+            const body = document.querySelector('body')
+            body.append(div)
+
+        }
+
+        error()
+        error()
+        error()
+        error()
+        error()
+    </script>
+</body>
+</html>
