@@ -1,77 +1,92 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-body {
-    height: 100vh;
-    
-    display: flex;
+      body {
+        height: 100vh;
+          
+        display: flex;
 
-    flex-direction: column;
-    gap: 1rem;
+        flex-direction: column;
+        gap: 1rem;
 
-    justify-content: center;
-    align-items: center;
+        justify-content: center;
+        align-items: center;
 
-    background:#000000d0;
-}
+        background:#000000d0;
+      }
 
-.request {
-    display: flex;
-    gap: 0.5rem;
-}
+      .request {
+        display: flex;
+        gap: 0.5rem;
+      }
 
-#tarefa {
-    width: 40rem;
-    height: 2rem;
+      #tarefa {
+        width: 40rem;
+        height: 2rem;
 
-    padding: 4px;
+        padding: 4px;
 
-    border: 2px solid white;
-    border-radius: 1rem;
-}
+        border: 2px solid white;
+        border-radius: 1rem;
+      }
 
-.button {
-    width: 2rem;
-    height: 2rem;
-    background: white;
+      .button {
+        width: 2rem;
+        height: 2rem;
+        background: white;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        cursor: pointer;
 
-    border-radius: 50%;
-}
+        border-radius: 50%;
+      }
 
-.bar:nth-child(1) {
-    transform: rotate(90deg);
-    position: relative;
-    left: 5px;
-}
+      .bar:nth-child(1) {
+        transform: rotate(90deg);
+        position: relative;
+        left: 5px;
+      }
 
-.bar:nth-child(2) {
-    position: relative;
-    right: 3.7px;
-}
+      .bar:nth-child(2) {
+        position: relative;
+        right: 3.7px;
+      }
 
-.bar {
-    width: 4px;
-    height: 22px;
-    background: black;
-}
+      .bar {
+        width: 4px;
+        height: 22px;
+        background: black;
+      }
 
-.res {
-    width: 45rem;
-    height: 4rem;
+      .res {
+        width: 45rem;
+        height: 4rem;
 
-    padding: 15px;
-    background: white;
-    font-family: sans-serif;
-    
-    border-radius: 1rem;
-}
+        display: flex;
+        justify-content: space-between;
 
+        padding: 15px;
+        background: white;
+        font-family: sans-serif;
+          
+        border-radius: 1rem;
+      }
+
+      #trash {
+        width: 80px;
+        height: 2rem;
+        color: white;
+        background: black;
+        border: none;
+        border-radius: 1rem;
+        font-weight: bold;
+
+        cursor: pointer;
+      } 
 /*BOX SHADOW*/
