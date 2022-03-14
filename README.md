@@ -1,5 +1,5 @@
 # Lista-de-tarefas
-Uma lista de tarefas com JavaScript, HTML e CSS.
+Uma lista de tarefas com <strong>JavaScript, HTML e CSS.</strong>
 
 ## Features</br> 
 [X] Escreva em uma caixa de texto e clicka no botão. Aparece uma div com oque você escreveu </br>
